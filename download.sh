@@ -2,6 +2,8 @@
 
 version="0.12.0"
 
+git rm static/fonts/* && mkdir static/fonts
+
 wget -q -P static "https://cdn.jsdelivr.net/npm/katex@$version/dist/katex.min.css"
 
 for url in $(wget -q -O - "https://cdn.jsdelivr.net/npm/katex@$version/dist/fonts/" | grep -ioe "npm/katex@$version/dist/fonts/[a-z0-9_-]\+[.][a-z0-9]\+")
