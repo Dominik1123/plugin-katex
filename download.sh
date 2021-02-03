@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-version="0.12.0"
+version="0.8.3"
 
 git rm static/fonts/* && mkdir static/fonts
 
