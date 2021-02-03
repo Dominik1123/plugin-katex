@@ -5,21 +5,11 @@ Use it for your book, by adding to your book.json:
 
 ```
 {
-    "plugins": ["katex@git+https://github.com/Dominik1123/plugin-katex.git"]
+    "plugins": ["katex@git+https://github.com/Dominik1123/plugin-katex.git#katex-0.9"]
 }
 ```
 
-Alternatively a specific Katex version can be specified by targeting the corresponding branch:
-
-```
-{
-    "plugins": ["katex@git+https://github.com/Dominik1123/plugin-katex.git#katex-<major>.<minor>"]
-}
-```
-
-where `<major>.<minor>` should be set to the desired version, so for example `0.10` (this will always use the latest micro version).
-
-Then run `gitbook install`.
+then run `gitbook install`.
 
 ## Usage
 
